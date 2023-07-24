@@ -14,5 +14,5 @@ describe('async Address Book', function() {
 
     addressBook.getInitialContacts();
     expects(addressBook.initialComplete).toBe(true);
-  })
-})
+  });
+});
